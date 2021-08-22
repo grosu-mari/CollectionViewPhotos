@@ -19,6 +19,7 @@
 		4482ECE826D255E3005B719C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECE726D255E3005B719C /* Model.swift */; };
 		4482ECEB26D25670005B719C /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECEA26D25670005B719C /* ListCollectionViewCell.swift */; };
 		4482ECED26D25697005B719C /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECEC26D25697005B719C /* AlbumCollectionViewCell.swift */; };
+		4482ECEF26D25702005B719C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECEE26D25702005B719C /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		4482ECE726D255E3005B719C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		4482ECEA26D25670005B719C /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
 		4482ECEC26D25697005B719C /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		4482ECEE26D25702005B719C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				4482ECDF26D25490005B719C /* SearchViewController.swift */,
 				4482ECE126D254A8005B719C /* MediaLibraryViewController.swift */,
 				4482ECE326D2555E005B719C /* MainViewController.swift */,
+				4482ECEE26D25702005B719C /* TabBarViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				4482ECE026D25490005B719C /* SearchViewController.swift in Sources */,
 				4482ECE426D2555E005B719C /* MainViewController.swift in Sources */,
 				4482ECCA26D253C5005B719C /* SceneDelegate.swift in Sources */,
+				4482ECEF26D25702005B719C /* TabBarViewController.swift in Sources */,
 				4482ECE226D254A9005B719C /* MediaLibraryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
