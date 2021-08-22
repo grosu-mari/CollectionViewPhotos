@@ -12,17 +12,17 @@ class TabBarViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let firstVC = MediaLibraryViewController()
-        let secVC = ForYouViewController()
-        let thirdVC = MainViewController()
-        let fourVC = SearchViewController()
+        let mediaLibraryViewController = MediaLibraryViewController()
+        let forYouViewController = ForYouViewController()
+        let mainViewController = MainViewController()
+        let searchViewController = SearchViewController()
     
-        firstVC.title = "Медиатека"
-        secVC.title = "Для вас"
-        thirdVC.title = "Альбомы"
-        fourVC.title = "Поиск"
+        mediaLibraryViewController.title = "Медиатека"
+        forYouViewController.title = "Для вас"
+        mainViewController.title = "Альбомы"
+        searchViewController.title = "Поиск"
         
-        self.setViewControllers([firstVC, secVC, thirdVC, fourVC], animated: false)
+        self.setViewControllers([mediaLibraryViewController, forYouViewController, mainViewController, searchViewController], animated: false)
         
         guard let items = self.tabBar.items else { return }
         let images = ["photo.fill.on.rectangle.fill", "heart.text.square.fill", "rectangle.stack.fill", "magnifyingglass"]

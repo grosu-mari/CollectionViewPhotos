@@ -86,11 +86,11 @@
 		4482ECDB26D25450005B719C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4482ECEE26D25702005B719C /* TabBarViewController.swift */,
+				4482ECE326D2555E005B719C /* MainViewController.swift */,
 				4482ECDD26D25471005B719C /* ForYouViewController.swift */,
 				4482ECDF26D25490005B719C /* SearchViewController.swift */,
 				4482ECE126D254A8005B719C /* MediaLibraryViewController.swift */,
-				4482ECE326D2555E005B719C /* MainViewController.swift */,
-				4482ECEE26D25702005B719C /* TabBarViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
