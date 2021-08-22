@@ -17,6 +17,8 @@
 		4482ECE226D254A9005B719C /* MediaLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECE126D254A8005B719C /* MediaLibraryViewController.swift */; };
 		4482ECE426D2555E005B719C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECE326D2555E005B719C /* MainViewController.swift */; };
 		4482ECE826D255E3005B719C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECE726D255E3005B719C /* Model.swift */; };
+		4482ECEB26D25670005B719C /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECEA26D25670005B719C /* ListCollectionViewCell.swift */; };
+		4482ECED26D25697005B719C /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECEC26D25697005B719C /* AlbumCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		4482ECE126D254A8005B719C /* MediaLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLibraryViewController.swift; sourceTree = "<group>"; };
 		4482ECE326D2555E005B719C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4482ECE726D255E3005B719C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4482ECEA26D25670005B719C /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		4482ECEC26D25697005B719C /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		4482ECC626D253C5005B719C /* CollectionViewPhotos */ = {
 			isa = PBXGroup;
 			children = (
+				4482ECE926D2565E005B719C /* Cells */,
 				4482ECDC26D25459005B719C /* Model */,
 				4482ECDB26D25450005B719C /* Controllers */,
 				4482ECC726D253C5005B719C /* AppDelegate.swift */,
@@ -93,6 +98,15 @@
 				4482ECE726D255E3005B719C /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4482ECE926D2565E005B719C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4482ECEA26D25670005B719C /* ListCollectionViewCell.swift */,
+				4482ECEC26D25697005B719C /* AlbumCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4482ECED26D25697005B719C /* AlbumCollectionViewCell.swift in Sources */,
 				4482ECE826D255E3005B719C /* Model.swift in Sources */,
 				4482ECDE26D25471005B719C /* ForYouViewController.swift in Sources */,
+				4482ECEB26D25670005B719C /* ListCollectionViewCell.swift in Sources */,
 				4482ECC826D253C5005B719C /* AppDelegate.swift in Sources */,
 				4482ECE026D25490005B719C /* SearchViewController.swift in Sources */,
 				4482ECE426D2555E005B719C /* MainViewController.swift in Sources */,
