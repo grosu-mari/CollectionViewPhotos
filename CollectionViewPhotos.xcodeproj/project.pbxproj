@@ -15,6 +15,7 @@
 		4482ECDE26D25471005B719C /* ForYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECDD26D25471005B719C /* ForYouViewController.swift */; };
 		4482ECE026D25490005B719C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECDF26D25490005B719C /* SearchViewController.swift */; };
 		4482ECE226D254A9005B719C /* MediaLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECE126D254A8005B719C /* MediaLibraryViewController.swift */; };
+		4482ECE426D2555E005B719C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECE326D2555E005B719C /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4482ECDD26D25471005B719C /* ForYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouViewController.swift; sourceTree = "<group>"; };
 		4482ECDF26D25490005B719C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4482ECE126D254A8005B719C /* MediaLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLibraryViewController.swift; sourceTree = "<group>"; };
+		4482ECE326D2555E005B719C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				4482ECDD26D25471005B719C /* ForYouViewController.swift */,
 				4482ECDF26D25490005B719C /* SearchViewController.swift */,
 				4482ECE126D254A8005B719C /* MediaLibraryViewController.swift */,
+				4482ECE326D2555E005B719C /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				4482ECDE26D25471005B719C /* ForYouViewController.swift in Sources */,
 				4482ECC826D253C5005B719C /* AppDelegate.swift in Sources */,
 				4482ECE026D25490005B719C /* SearchViewController.swift in Sources */,
+				4482ECE426D2555E005B719C /* MainViewController.swift in Sources */,
 				4482ECCA26D253C5005B719C /* SceneDelegate.swift in Sources */,
 				4482ECE226D254A9005B719C /* MediaLibraryViewController.swift in Sources */,
 			);
