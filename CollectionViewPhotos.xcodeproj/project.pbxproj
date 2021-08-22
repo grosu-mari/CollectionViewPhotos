@@ -16,6 +16,7 @@
 		4482ECE026D25490005B719C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECDF26D25490005B719C /* SearchViewController.swift */; };
 		4482ECE226D254A9005B719C /* MediaLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECE126D254A8005B719C /* MediaLibraryViewController.swift */; };
 		4482ECE426D2555E005B719C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECE326D2555E005B719C /* MainViewController.swift */; };
+		4482ECE826D255E3005B719C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482ECE726D255E3005B719C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4482ECDF26D25490005B719C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4482ECE126D254A8005B719C /* MediaLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaLibraryViewController.swift; sourceTree = "<group>"; };
 		4482ECE326D2555E005B719C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4482ECE726D255E3005B719C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		4482ECDC26D25459005B719C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4482ECE726D255E3005B719C /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4482ECE826D255E3005B719C /* Model.swift in Sources */,
 				4482ECDE26D25471005B719C /* ForYouViewController.swift in Sources */,
 				4482ECC826D253C5005B719C /* AppDelegate.swift in Sources */,
 				4482ECE026D25490005B719C /* SearchViewController.swift in Sources */,
